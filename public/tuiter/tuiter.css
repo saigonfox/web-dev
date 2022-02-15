@@ -1,0 +1,277 @@
+
+/*
+WHOLE PAGE
+Background color is black
+Borders are rgb(47, 51, 54)
+All content below is offset 16px from the left border.
+All classes must be prefixed with "wd-".
+*/
+/*
+INPUT FIELD
+Rounded corners
+The color of the text is white
+the background color is dark gray.
+
+*/
+.wd-main-page{
+    display: inline-block;
+    border: 1px rgb(47, 51, 54) solid;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    font-family: Verdana;
+
+}
+.wd-page-elements {
+    display: inline-block;
+    background-color: black;
+    border-bottom: 1px rgb(47, 51, 54) solid;
+    position: relative;
+    width: 100%;
+}
+
+.wd-no-border-bottom {
+    border-bottom-color:black;
+}
+
+.wd-search-bar {
+    float: left;
+    border-color: rgb(47, 51, 54);
+    background-color: darkgray;
+    border-radius: 20px;
+    color: white;
+    height: 25px;
+    width: 89%;
+    position: relative;
+    top: 5px;
+    left: 16px;
+    font-family: Verdana;
+}
+
+.wd-gear-setting {
+    text-decoration: none;
+    color: rgb(29, 161, 242);
+    float: right;
+    position: relative;
+    top: -17px;
+    right: 12px;
+    font-size: 25px;
+}
+
+.wd-categories {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(110,118,125);
+    font-size:15px;
+    padding: 16px;
+    float:left;
+    alignment: center;
+    font-weight: bold;
+}
+
+.wd-split-border {
+    border-bottom: darkgray 3px solid;
+}
+
+.wd-page-break {
+    position: relative;
+    background-color: dimgrey;
+    border-bottom: dimgrey 1px solid;
+    height: 10px;
+    width:100%;
+    top: -5px;
+}
+.wd-highlighted-link {
+    color: rgb(29, 161, 242);
+    padding-left: 16px;
+    text-decoration: underline rgb(29, 161, 242) 3px;
+    text-underline-offset: 15px;
+}
+
+.wd-suggested-posts-typeC {
+    display: block;
+    color: rgb(110,118,125);
+    font-size: 13px;
+    text-align: left;
+    margin: 16px;
+    border-bottom: black;
+}
+
+.wd-float-right {
+    float: right;
+    right: 16px;
+}
+
+.wd-bold-text {
+    font-weight: bold;
+}
+
+.wd-suggested-posts-typeD {
+    display: block;
+    color: white;
+    font-size: 13px;
+    text-align: left;
+    margin: 16px;
+    border-bottom: black;
+}
+
+.wd-explore-image {
+    display: block;
+    float: right;
+    position: relative;
+    bottom: 10px;
+    border-radius: 10px;
+}
+
+.wd-suggested-posts-typeE {
+    display: block;
+    color: lightgray;
+    font-size: 13px;
+    text-align: left;
+    margin: 16px;
+    border-bottom: black;
+}
+
+.wd-bookmarks-title {
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin: 12px 16px -12px;
+}
+
+.wd-bookmarks-handle {
+    display: block;
+    color: lightgray;
+    font-size: 13px;
+    text-align: left;
+    margin: 16px 16px 12px;
+}
+
+.wd-bookmarks-line-break {
+    border-bottom: lightgray 1px solid;
+    width: 100%;
+}
+
+.wd-text-color-blue {
+    color: dodgerblue;
+}
+
+.wd-bookmarks-post {
+    position: relative;
+    background: yellow;
+    left: 16px;
+    top: 12px;
+    clear: both;
+}
+
+.wd-bookmarks-partB {
+    position: relative;
+    width: 48px;
+    left: 16px;
+    padding-top: 12px;
+
+}
+
+.wd-bookmarks-round-image {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+.wd-bookmarks-partC {
+    position: relative;
+    left: 64px;
+    top: -48px;
+    padding-left: 12px;
+}
+
+.wd-text-color-lightgray {
+    color: lightgray;
+}
+
+.wd-bookmarks-content {
+    font-size: 15px;
+    color: white;
+}
+.wd-max-width {
+    width: 593px;
+}
+.wd-bookmarks-partD {
+    position: relative;
+    left: 64px;
+    right: 16px;
+    top: -48px;
+    bottom: 48px;
+    padding: 10px 16px 12px 12px;
+    width: 506px;
+}
+
+.wd-bookmarks-round-top-image {
+    height: 264px;
+    width: 504px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px lightgray solid;
+}
+
+.wd-bookmarks-partE {
+    position: relative;
+    width: 504px;
+    left: 64px;
+    padding-left: 12px;
+    top: -48px;
+}
+
+.wd-bookmarks-partF {
+    position: relative;
+    top: -54px;
+    left: 76px;
+    padding: 12px 12px 12px 24px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px lightgray solid;
+    width: 468px;
+    border-top-color: black;
+}
+
+.wd-bookmarks-bold-text {
+    font-weight: bold;
+}
+
+.wd-bookmarks-partG {
+    position: relative;
+    top: -54px;
+    left: 76px;
+    padding-right: 12px;
+}
+
+.wd-bookmarks-spacing {
+
+}
+
+.wd-bookmarks-icons {
+    text-decoration: none;
+    padding-right: 12px;
+    color: lightgray;
+}
+
+.wd-bookmarks-text-red {
+    color: red;
+}
+
+.wd-bookmarks-icons-spacing {
+    padding-right: 80px;
+}
+
+.wd-bookmarks-posts-split {
+    position: relative;
+    top: -20px;
+
+}
+
+.wd-bookmarks-posts-alignment {
+    position: relative;
+    top: -10px;
+}
