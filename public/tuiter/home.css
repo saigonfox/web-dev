@@ -1,0 +1,47 @@
+.wd-profile-image {
+    overflow: hidden;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    margin-top: 7px;
+}
+
+.wd-profile-frame {
+    width: 48px;
+    height: 48px;
+}
+
+.wd-post-icon {
+    color: darkgray;
+}
+
+.wd-post-image {
+    border: 1px dimgray solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.wd-post-detail {
+    font-size: small;
+    border: 1px dimgray solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.wd-post-subtext {
+    color: darkgrey;
+}
+
+.wd-text-bold {
+    font-weight: bold;
+}
+
+.wd-round-frame {
+    border-radius: 20px;
+    border: 1px dimgray solid;
+}
+
+.wd-home-center-frame {
+    border: 1px dimgray solid;
+    border-bottom-color: black;
+}
