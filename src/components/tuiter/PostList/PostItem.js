@@ -22,7 +22,8 @@ const PostItem = (
                 <div className="row wd-home-center-frame pt-1">
                     <div className="col-2 ps-1 pe-1 wd-profile-frame">
                         <img src={post.profileImage}
-                        className="img-fluid wd-profile-image "/>
+                             alt="profile"
+                             className="img-fluid wd-profile-image "/>
                     </div>
                     <div className="col-10 ">
                         <div>
@@ -39,8 +40,9 @@ const PostItem = (
                             <>
                                 <div className="row mt-2 m-0 p-0">
                                         <img src={post.image}
-                                        className="m-0 p-0 wd-post-image"
-                                        id = "post-image"/>
+                                             alt="post-more"
+                                             className="m-0 p-0 wd-post-image"
+                                            id = "post-image"/>
                                 </div>
                                 <div className="m-0 p-0 wd-post-detail" id="post-detail">
                                 <p className="ms-3 mt-0 mb-0 pt-2 text-white">
@@ -56,14 +58,15 @@ const PostItem = (
                         {!more &&
                             <div className="row mt-2 m-0 p-0">
                                     <img src={post.image} 
-                                    className="m-0 p-0 wd-round-frame"
-                                    id = "post-image"/>
+                                        className="m-0 p-0 wd-round-frame"
+                                         alt="post-no-more"
+                                         id = "post-image"/>
                             </div>
                         }
                         <div className="row mt-3">
                             <div className="row col-3">
                                 <p className="col-1">
-                                    <a href="#">
+                                    <a href="./comment.html">
                                         <i className="wd-post-icon fa-regular fa-comment"></i>
                                     </a>
                                 </p>
@@ -71,7 +74,7 @@ const PostItem = (
                             </div>
                             <div className="row col-3 ms-2">
                                 <p className="col-1">
-                                    <a href="#">
+                                    <a href="./tweet.html">
                                         <i className="wd-post-icon fa-solid fa-retweet"></i>
                                     </a>
                                 </p>
@@ -79,7 +82,7 @@ const PostItem = (
                             </div>
                             <div className="row col-3 ms-3">
                                 <p className="col-1">
-                                    <a href="#">
+                                    <a href="./love.html">
                                         <i className="wd-post-icon fa-regular fa-heart"></i>
                                     </a>
                                 </p>
@@ -87,7 +90,7 @@ const PostItem = (
                             </div>
                             <div className="row col-3 ms-4">
                                 <p className="">
-                                    <a href="#">
+                                    <a href="./upload.html">
                                         <i className="wd-post-icon fa-solid fa-upload"></i>
                                     </a>
                                 </p>

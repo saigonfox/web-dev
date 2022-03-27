@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './vendors/bootstrap/css/bootstrap.min.css';
 import './vendors/bootstrap/bootstrap.min.css';
@@ -9,7 +8,6 @@ import './components/tuiter/home.css'
 
 import HelloWorld from "./components/hello-world";
 import Labs from "./components/labs/index";
-import Tuiter from "./components/tuiter/index";
 import {BrowserRouter, Route, Routes}
     from "react-router-dom";
 import HomeScreen from "./components/tuiter/HomeScreen/HomeScreen";

@@ -20,7 +20,9 @@ const PostSummaryItem = (
                     <p className="m-0 fs-6 fw-bold text-white">{post.title}</p>
                 </div>
                 <div className="col-3 col-sm-2">
-                    <img src={post.image} className="img-fluid mt-1 wd-image-tuit-post"/>
+                    <img src={post.image}
+                         className="img-fluid mt-1 wd-image-tuit-post"
+                         alt="post-summary" />
                 </div>
             </div>
         </>

@@ -67,7 +67,7 @@ const NavigationSidebar = (
                             Profile
                         </span>
                     </a>
-                <a href="#" 
+                <a href="../more.html"
                 className={`"wd-page-element text-decoration-none list-group-item
                        ${active === 'more' ? 'active' : 'override-bs'}`} >
                         <i className="fa-fw fa-solid fa-circle wd-nav-icon"></i>

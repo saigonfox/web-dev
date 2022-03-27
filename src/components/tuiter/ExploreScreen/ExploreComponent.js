@@ -38,7 +38,7 @@ const ExploreComponent = () => {
                 </div>
                {/* image with overlaid text */}
                <div className="row mt-0 wd-page-element wd-big-photo-frame">
-                <img src="../../../images/explore-midcol-ig0.jpg" className="m-0 p-0"/>
+                <img src="../../../images/explore-midcol-ig0.jpg" alt="starship" className="m-0 p-0"/>
                 <div className="wd-big-photo-title">SpaceX's Starship</div>
             </div>
                <PostSummaryList/>

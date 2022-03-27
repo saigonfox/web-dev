@@ -14,7 +14,8 @@ const WhoToFollowListItem = (
             <div className="row">
                 <div className="col-2 ">
                     <img src={who.avatarIcon}
-                    className="wd-follow-image"/>
+                        className="wd-follow-image"
+                         alt="avatar" />
                 </div>
                 <div className="col-6 ">
                     <p className="wd-follow-text mt-0 mb-0">{who.userName}
