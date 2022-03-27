@@ -45,3 +45,7 @@
     border: 1px dimgray solid;
     border-bottom-color: black;
 }
+
+.wd-description-link {
+    color: deepskyblue;
+}

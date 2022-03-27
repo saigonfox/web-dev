@@ -1,0 +1,158 @@
+body {
+    background-color: black;
+}
+
+.wd-main-page{
+    background-color: black;
+    font-family: Verdana;
+
+}
+
+.list-group-item.override-bs {
+    background-color: #222;
+    color: white;
+}
+
+/*.list-group-item.active.override-bs {*/
+/*    background-color: darkgreen;*/
+/*    border-color: black;*/
+/*}*/
+
+.wd-nav-element {
+    color: white;
+    padding-left: 10px;
+}
+
+.wd-nav-icon {
+    color: white;
+}
+
+a:hover {
+    color: darkorange;
+}
+
+.wd-tuit-button {
+    width: 100%;
+    border-radius: 17px;
+    margin-top: 12px;
+    background-color: darkgreen;
+    border-color: black;
+}
+
+.wd-frame-inspect {
+    background-color: yellow;
+}
+
+.wd-search-bar {
+    background-color: white;
+    /*background-color: darkgreen;*/
+    border-radius: 20px;
+    color: black;
+    height: 30px;
+    border: none;
+    text-indent: 35px;
+}
+
+::placeholder {
+    color: black;
+}
+
+.wd-search-icon-render {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: darkgray;
+}
+
+.wd-gear-setting {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+.wd-gear-color {
+    /*color: darkgreen;*/
+}
+
+.wd-page-element {
+    position: relative;
+    /*border: 1px rgb(47, 51, 54) solid;*/
+
+}
+
+.wd-no-border-bottom {
+    border-bottom-color:black;
+}
+
+.wd-no-border-top {
+    border-top-color: black;
+}
+
+.nav-link.active.override-bs {
+    /*background-color: rgb(47, 51, 54);*/
+    border: none;
+    /*text-decoration: underline darkgreen 3px;*/
+    text-underline-offset: 11px;
+    font-weight: bold;
+    color: white;
+}
+
+.wd-no-border {
+    border: none;
+}
+
+.nav-link.override-bs {
+    color: white;
+    padding-left: 10px;
+}
+
+
+
+.wd-big-photo-title {
+    color: rgb(46 40 40);
+    font-weight: bold;
+    position: relative;
+    font-size: 3vw;
+    margin-top: -4vw;
+    display: flex;
+}
+
+.wd-tuit-post {
+    padding-top: 5px;
+    background-color: #222;
+    padding-bottom: 5px;
+}
+
+.wd-text-tuit-post {
+    color: darkgray;
+}
+
+.wd-image-tuit-post {
+    border-color: #222;
+    border-radius: 10px;
+    background-color: #222 ;
+}
+
+.wd-follow-image {
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    margin: 7px 0 0;
+    /*background-color: rgb(110, 118, 125);*/
+    background-color: #222;
+}
+
+.wd-follow-btn {
+    border-radius: 50px;
+    /*background-color: darkgreen;*/
+    color: white;
+    border: none;
+    float: right;
+}
+
+.wd-follow-text {
+    font-weight: bold;
+}
