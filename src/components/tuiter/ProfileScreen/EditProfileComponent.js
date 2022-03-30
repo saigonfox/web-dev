@@ -19,26 +19,27 @@ const EditProfileComponent = () => {
     return(
         <>
             <div className="mt-2">
-                <div className="row col-12 mb-1">
-                    <div className="col-1 mt-2">
+                <div className="container  col-12 mb-1">
+                    {/*<div className="col-1 ">*/}
                         <Link to="/tuiter/profile"
                               className="text-decoration-none">
-                            <i className="fa-solid fa-xmark fa-xl text-white-50"></i>
+                            <i className="fa-solid fa-xmark fa-xl text-white-50
+                                d-inline-block mt-2 "></i>
 
                         </Link>
-                    </div>
-                    <div className="col-8 ps-0 ms-4">
-                        <h5 className="mt-1 fw-bold font-">Edit profile</h5>
-                    </div>
-                    <div className="col-2 ps-0 ms-4 ">
+                    {/*</div>*/}
+                    {/*<div className="col-7 ">*/}
+                        <h5 className="mt-1 fw-bold d-inline-block ps-0 ms-5">Edit profile</h5>
+                    {/*</div>*/}
+                    {/*<div className="col-4 ps-0 ms-4 d-inline-block">*/}
                         <Link to="/tuiter/profile"
-                              className="text-decoration-none">
+                              className="text-decoration-none d-inline-block float-end ">
                             <button className="btn float-end fw-bold text-black bg-white
                                     wd-personal-save-profile-button"
                                     onClick={saveProfile}>Save
                             </button>
                         </Link>
-                    </div>
+                    {/*</div>*/}
                 </div>
 
                 <div className="row pe-0 col-12 pt-2 container position-relative">
