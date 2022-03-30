@@ -3,7 +3,7 @@ import PostSummaryList from "../PostSummaryList/index";
 
 const ExploreComponent = () => {
     return(
-           <div className="col-xxl-6 col-xl-6 col-lg-7 col-md-10 col-sm-9 col-9 mt-2">
+           <div className="mt-2">
                {/*  search field and cog */}
                <div className="row pt-1 wd-page-element wd-no-border-bottom">
                     <div className="col-11 mt-1">
@@ -17,7 +17,7 @@ const ExploreComponent = () => {
                     </div>
                 </div>
                {/* tabs */}
-               <div className="row mt-0 wd-page-element wd-no-border-top">
+               <div className="row mt-2 wd-page-element wd-no-border-top">
                     <ul className="nav nav-tabs wd-no-border wd-no-padding">
                         <li className="nav-item">
                             <a className="nav-link active override-bs" href="for-you.html">For you</a>

@@ -1,0 +1,18 @@
+.wd-tuit-media {
+    border-radius: 17px;
+}
+
+.wd-whatshappening-icon {
+    color: deepskyblue;
+}
+
+
+.wd-whatshappening-textarea {
+    border: none;
+    border-bottom: solid thin darkgrey;
+    padding-bottom: 10px;
+}
+
+#clickableAwesomeFont {
+    cursor: pointer
+}

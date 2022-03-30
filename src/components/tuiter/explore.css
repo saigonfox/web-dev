@@ -31,12 +31,17 @@ a:hover {
     color: darkorange;
 }
 
+.wd-nav-col {
+    min-width: 70px;
+}
+
 .wd-tuit-button {
     width: 100%;
     border-radius: 17px;
-    margin-top: 12px;
-    background-color: darkgreen;
+    margin-top: 8px;
+    /*background-color: darkgreen;*/
     border-color: black;
+    font-size: 90%;
 }
 
 .wd-frame-inspect {

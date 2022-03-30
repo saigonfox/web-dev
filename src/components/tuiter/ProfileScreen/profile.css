@@ -1,0 +1,78 @@
+.wd-personal-banner {
+    /*width: 100%;*/
+    min-height: 70px;
+    height: 200px;
+}
+
+.wd-personal-edit-profile-button {
+    background-color: black;
+    border: solid thin darkgrey;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 1.6vh;
+    text-decoration: none;
+    position: relative;
+    margin-top: -4vh;
+    margin-right: 20px;
+    width: 150px;
+}
+
+
+.wd-personal-avatar {
+    border-radius: 50%;
+    position: relative;
+    margin-top: -13%;
+    height: 130px;
+    width: 150px;
+}
+
+.wd-personal-save-profile-button {
+    border: solid thin darkgrey;
+    border-radius: 20px;
+    height: 35px;
+    position: relative;
+    width: 90px;
+}
+
+.wd-personal-banner-edit-icon {
+    position:absolute;
+    left: 45%;
+    bottom: 50%;
+}
+
+.wd-personal-banner-remove-icon {
+    position:absolute;
+    left: 55%;
+    bottom: 53%;
+}
+
+.wd-personal-edit-avatar {
+    position:absolute;
+    left: 75px;
+    bottom: 50px;
+}
+
+.wd-personal-frame-check {
+    background-color: yellow;
+}
+
+.wd-personal-edit-info-frame {
+    border: darkgrey solid thin;
+    border-radius: 5px;
+}
+.wd-personal-edit-info {
+    background-color: black;
+    border: none;
+}
+
+#edit-profile-placeholder::placeholder {
+    color: white;
+}
+
+#edit-profile-placeholder:focus::placeholder {
+    color: transparent;
+}
+
+#edit-profile-placeholder:focus {
+    outline: none;
+}

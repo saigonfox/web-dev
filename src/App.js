@@ -5,37 +5,50 @@ import './vendors/fontawesome/css/all.min.css';
 import './components/tuiter/explore.css'
 import './components/tuiter/home.css'
 
-
 import HelloWorld from "./components/hello-world";
 import Labs from "./components/labs/index";
 import {BrowserRouter, Route, Routes}
     from "react-router-dom";
 import HomeScreen from "./components/tuiter/HomeScreen/HomeScreen";
 import ExploreScreen from "./components/tuiter/ExploreScreen/ExploreScreen";
-
+import Tuiter from "./components/tuiter";
+import ProfileScreen from "./components/tuiter/ProfileScreen/index";
+import EditProfileScreen from "./components/tuiter/ProfileScreen/EditProfileScreen";
 
 function App() {
     return (
         <BrowserRouter>
             <div className="container">
                 <Routes>
-                    <Route path="/hello"
-                           exact={true}
-                           element={<HelloWorld/>}/>
-                    <Route path="/"
-                           exact={true}
-                           element={<Labs/>}/>
-                    <Route path="/tuiter/home"
-                           exact={true}
-                           element={<HomeScreen/>}/>
-                    <Route path="/tuiter/explore"
-                           exact={true}
-                           element={<ExploreScreen/>}/>
+                    <Route path="/">
+                        <Route index element={<Labs />} />
+                        <Route path="labs"
+                               exact={true}
+                               element={<Labs/>}/>
+                        <Route path="hello"
+                               element={<HelloWorld/>}/>
+                        <Route path="tuiter"
+                               element={<Tuiter/>}>
+                            <Route path=""
+                                   element={<HomeScreen/>}/>
+                            <Route path="home"
+                                   element={<HomeScreen/>}/>
+                            <Route path="explore"
+                                   element={<ExploreScreen/>}/>
+                            <Route path="profile"
+                                   element={<ProfileScreen/>}/>
+                            <Route path="profile/editprofile"
+                                   element={<EditProfileScreen/>}/>
+                            ...
+                        </Route>
+                    </Route>
                 </Routes>
             </div>
         </BrowserRouter>
     );
 }
+
+
 
 
 
