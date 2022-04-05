@@ -11,6 +11,7 @@ const reducer = combineReducers({
 });
 const store = createStore(reducer);
 
+
 const Tuiter = () => {
     return (
         <Provider store={store}>

@@ -4,7 +4,8 @@ import {Link} from "react-router-dom"
 const ProfileComponent = (
     {
         profile
-            = {"_id": "001",
+            =
+            {"_id": "001",
             "firstName": "Jose",
             "lastName": "Annunziato",
             "handle": "jannunzi",
@@ -27,7 +28,7 @@ const ProfileComponent = (
                     <div className="col-1 mt-3"><i className="fa-solid fa-arrow-left"></i></div>
                     <div className="col-11 ps-4 ms-0">
                         <h5 className="mb-0 fw-bold">{profile.firstName} {profile.lastName}</h5>
-                        <p className="mb-0 text-white-50 small">{profile.tuitsCount.toLocaleString()} Tuits</p>
+                        <p className="mb-0 text-white-50 small">{profile.tuitsCount} Tuits</p>
                     </div>
                 </div>
                 <img className="wd-personal-banner" src={profile.bannerPicture} alt={"banner"}/>

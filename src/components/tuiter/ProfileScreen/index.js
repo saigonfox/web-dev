@@ -8,13 +8,7 @@ const ProfileScreen = () => {
         state => state.profiles);
     return (
         <>
-            <ul className="list-group">
-                {
-                    profiles.map && profiles.map(profile =>
-                        <ProfileComponent key={profile._id}
-                                      profile={profile}/>)
-                }
-            </ul>
+            <ProfileComponent profile = {profiles}/>
         </>
     );
 }
