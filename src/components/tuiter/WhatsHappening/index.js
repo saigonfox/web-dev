@@ -4,8 +4,6 @@ import {useDispatch}
     from "react-redux";
 import {createTuit} from "../../../actions/tuits-actions"
 
-
-
 const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening]
         = useState('');
@@ -16,7 +14,7 @@ const WhatsHappening = () => {
             <li className="list-group-item border-0 bg-black">
                 <div className="row pt-1">
                     <div className="col-2 ps-1 pe-2 wd-profile-frame">
-                        <img src="../../images/\elon_musk.jpg" alt="host avatar" className="img-fluid wd-profile-image"/>
+                        <img src="../../images/elon_musk.jpg" alt="host avatar" className="img-fluid wd-profile-image"/>
                     </div>
                     <div className="col-10">
                         <div className="row m0">
@@ -43,7 +41,6 @@ const WhatsHappening = () => {
                                                 document.getElementById('whatsHappening').value = '';
                                                 // we need this line to clear the textarea after hitting the Tuit button
                                                 createTuit(dispatch, whatsHappening);
-
                                             }
                                         }
                                 >

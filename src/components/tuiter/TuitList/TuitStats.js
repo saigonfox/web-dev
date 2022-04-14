@@ -50,15 +50,14 @@ const TuitStats = (
             </div>
             <div className="row col-3 ms-2"
                  onClick={() => updateTuit(dispatch,
-                     {...tuit, stats : {...tuit.stats,
-                             likes: tuit.stats?.likes + 1}
+                     {...tuit, likes: tuit.likes + 1
                      })
                  }
             >
                     <p className="col-1">
                         <i className="wd-post-icon fa-regular fa-thumbs-up"></i></p>
 
-                {<p className="col-1 ms-0}">{tuit.stats?.likes}</p>}
+                {<p className="col-1 ms-0}">{tuit?.likes}</p>}
             </div>
             <div className="row col-3 ms-2"
                  onClick={() => updateTuit(dispatch,
